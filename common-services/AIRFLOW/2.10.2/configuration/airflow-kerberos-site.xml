@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+    <configuration supports_final="true">
+      
+      <property>
+        <name>ccache</name>
+        <value>/tmp/airflow_krb5_ccache</value>
+        <display-name>Ccache</display-name>
+        <description>Custom description for ccache</description>
+        
+      </property>
+      <property>
+        <name>principal</name>
+        <value>airflow</value>
+        <display-name>Principal</display-name>
+        <description>Custom description for principal</description>
+        
+      </property>
+      <property>
+        <name>reinit_frequency</name>
+        <value>3600</value>
+        <display-name>Reinit Frequency</display-name>
+        <description>Custom description for reinit_frequency</description>
+        
+      </property>
+      <property>
+        <name>kinit_path</name>
+        <value>kinit</value>
+        <display-name>Kinit Path</display-name>
+        <description>Custom description for kinit_path</description>
+        
+      </property>
+      <property>
+        <name>keytab</name>
+        <value>airflow.keytab</value>
+        <display-name>Keytab</display-name>
+        <description>Custom description for keytab</description>
+        
+      </property>
+      <property>
+        <name>forwardable</name>
+        <value>True</value>
+        <display-name>Forwardable</display-name>
+        <description>Custom description for forwardable</description>
+        
+      </property>
+      <property>
+        <name>include_ip</name>
+        <value>True</value>
+        <display-name>Include Ip</display-name>
+        <description>Custom description for include_ip</description>
+        
+      </property>
+    </configuration>

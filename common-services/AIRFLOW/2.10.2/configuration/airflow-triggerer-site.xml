@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+    <configuration supports_final="true">
+      
+      <property>
+        <name>default_capacity</name>
+        <value>1000</value>
+        <display-name>Default Capacity</display-name>
+        <description>Custom description for default_capacity</description>
+        
+      </property>
+      <property>
+        <name>web_server_port</name>
+        <value>8794</value>
+        <display-name>Web triggerer Port</display-name>
+        <description>Custom description for web_server_port</description>
+        
+      </property>
+    </configuration>

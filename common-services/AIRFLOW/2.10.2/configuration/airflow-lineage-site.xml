@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+    <configuration supports_final="true">
+      
+      <property>
+        <name>backend</name>
+        <value></value>
+        <display-name>Backend</display-name>
+        <description>Custom description for backend</description>
+        
+          <value-attributes>
+            <empty-value-valid>true</empty-value-valid>
+          </value-attributes>
+      </property>
+    </configuration>

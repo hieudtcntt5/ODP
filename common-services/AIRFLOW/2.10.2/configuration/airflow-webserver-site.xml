@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+    <configuration supports_final="true">
+      
+      <property>
+        <name>base_url</name>
+        <value>http://localhost:8087</value>
+        <display-name>Base Url</display-name>
+        <description>Custom description for base_url</description>
+        
+      </property>
+      <property>
+        <name>default_ui_timezone</name>
+        <value>UTC</value>
+        <display-name>Default Ui Timezone</display-name>
+        <description>Custom description for default_ui_timezone</description>
+        
+      </property>
+      <property>
+        <name>web_server_host</name>
+        <value>0.0.0.0</value>
+        <display-name>Web Server Host</display-name>
+        <description>Custom description for web_server_host</description>
+        
+      </property>
+      <property>
+        <name>web_server_port</name>
+        <value>8087</value>
+        <display-name>Web Server Port</display-name>
+        <description>Custom description for web_server_port</description>
+        
+      </property>
+      <property>
+        <name>web_server_ssl_cert</name>
+        <value></value>
+        <display-name>Web Server Ssl Cert</display-name>
+        <description>Custom description for web_server_ssl_cert</description>
+        
+          <value-attributes>
+            <empty-value-valid>true</empty-value-valid>
+          </value-attributes>
+      </property>
+      <property>
+        <name>web_server_ssl_key</name>
+        <value></value>
+        <display-name>Web Server Ssl Key</display-name>
+        <description>Custom description for web_server_ssl_key</description>
+        
+          <value-attributes>
+            <empty-value-valid>true</empty-value-valid>
+          </value-attributes>
+      </property>
+      <property>
+        <name>session_backend</name>
+        <value>database</value>
+        <display-name>Session Backend</display-name>
+        <description>Custom description for session_backend</description>
+        
+      </property>
+      <property>
+        <name>web_server_master_timeout</name>
+        <value>120</value>
+        <display-name>Web Server Master Timeout</display-name>
+        <description>Custom description for web_server_master_timeout</description>
+        
+      </property>
+      <property>
+        <name>web_server_worker_timeout</name>
+        <value>120</value>
+        <display-name>Web Server Worker Timeout</display-name>
+        <description>Custom description for web_server_worker_timeout</description>
+        
+      </property>
+      <property>
+        <name>worker_refresh_batch_size</name>
+        <value>1</value>
+        <display-name>Worker Refresh Batch Size</display-name>
+        <description>Custom description for worker_refresh_batch_size</description>
+        
+      </property>
+      <property>
+        <name>worker_refresh_interval</name>
+        <value>6000</value>
+        <display-name>Worker Refresh Interval</display-name>
+        <description>Custom description for worker_refresh_interval</description>
+        
+      </property>
+      <property>
+        <name>reload_on_plugin_change</name>
+        <value>False</value>
+        <display-name>Reload On Plugin Change</display-name>
+        <description>Custom description for reload_on_plugin_change</description>
+        
+      </property>
+      <property>
+        <name>secret_key</name>
+        <value>bmY2iGaQ1AOuE7OOBviwyw==</value>
+        <display-name>Secret Key</display-name>
+        <description>Custom description for secret_key</description>
+        
+      </property>
+      <property>
+        <name>workers</name>
+        <value>4</value>
+        <display-name>Workers</display-name>
+        <description>Custom description for workers</description>
+        
+      </property>
+      <property>
+        <name>worker_class</name>
+        <value>sync</value>
+        <display-name>Worker Class</display-name>
+        <description>Custom description for worker_class</description>
+        
+      </property>
+      <property>
+        <name>access_logfile</name>
+        <value>-</value>
+        <display-name>Access Logfile</display-name>
+        <description>Custom description for access_logfile</description>
+        
+      </property>
+      <property>
+        <name>error_logfile</name>
+        <value>-</value>
+        <display-name>Error Logfile</display-name>
+        <description>Custom description for error_logfile</description>
+        
+      </property>
+      <property>
+        <name>access_logformat</name>
+        <value></value>
+        <display-name>Access Logformat</display-name>
+        <description>Custom description for access_logformat</description>
+        
+          <value-attributes>
+            <empty-value-valid>true</empty-value-valid>
+          </value-attributes>
+      </property>
+      <property>
+        <name>expose_config</name>
+        <value>False</value>
+        <display-name>Expose Config</display-name>
+        <description>Custom description for expose_config</description>
+        
+      </property>
+      <property>
+        <name>expose_hostname</name>
+        <value>False</value>
+        <display-name>Expose Hostname</display-name>
+        <description>Custom description for expose_hostname</description>
+        
+      </property>
+      <property>
+        <name>expose_stacktrace</name>
+        <value>False</value>
+        <display-name>Expose Stacktrace</display-name>
+        <description>Custom description for expose_stacktrace</description>
+        
+      </property>
+      <property>
+        <name>dag_default_view</name>
+        <value>grid</value>
+        <display-name>Dag Default View</display-name>
+        <description>Custom description for dag_default_view</description>
+        
+      </property>
+      <property>
+        <name>dag_orientation</name>
+        <value>LR</value>
+        <display-name>Dag Orientation</display-name>
+        <description>Custom description for dag_orientation</description>
+        
+      </property>
+      <property>
+        <name>log_fetch_timeout_sec</name>
+        <value>5</value>
+        <display-name>Log Fetch Timeout Sec</display-name>
+        <description>Custom description for log_fetch_timeout_sec</description>
+        
+      </property>
+      <property>
+        <name>log_fetch_delay_sec</name>
+        <value>2</value>
+        <display-name>Log Fetch Delay Sec</display-name>
+        <description>Custom description for log_fetch_delay_sec</description>
+        
+      </property>
+      <property>
+        <name>log_auto_tailing_offset</name>
+        <value>30</value>
+        <display-name>Log Auto Tailing Offset</display-name>
+        <description>Custom description for log_auto_tailing_offset</description>
+        
+      </property>
+      <property>
+        <name>log_animation_speed</name>
+        <value>1000</value>
+        <display-name>Log Animation Speed</display-name>
+        <description>Custom description for log_animation_speed</description>
+        
+      </property>
+      <property>
+        <name>hide_paused_dags_by_default</name>
+        <value>False</value>
+        <display-name>Hide Paused Dags By Default</display-name>
+        <description>Custom description for hide_paused_dags_by_default</description>
+        
+      </property>
+      <property>
+        <name>page_size</name>
+        <value>100</value>
+        <display-name>Page Size</display-name>
+        <description>Custom description for page_size</description>
+        
+      </property>
+      <property>
+        <name>navbar_color</name>
+        <value></value>
+        <display-name>Navbar Color</display-name>
+        <description>Custom description for navbar_color</description>
+        
+          <value-attributes>
+            <empty-value-valid>true</empty-value-valid>
+          </value-attributes>
+      </property>
+      <property>
+        <name>default_dag_run_display_number</name>
+        <value>25</value>
+        <display-name>Default Dag Run Display Number</display-name>
+        <description>Custom description for default_dag_run_display_number</description>
+        
+      </property>
+      <property>
+        <name>enable_proxy_fix</name>
+        <value>False</value>
+        <display-name>Enable Proxy Fix</display-name>
+        <description>Custom description for enable_proxy_fix</description>
+        
+      </property>
+      <property>
+        <name>proxy_fix_x_for</name>
+        <value>1</value>
+        <display-name>Proxy Fix X For</display-name>
+        <description>Custom description for proxy_fix_x_for</description>
+        
+      </property>
+      <property>
+        <name>proxy_fix_x_proto</name>
+        <value>1</value>
+        <display-name>Proxy Fix X Proto</display-name>
+        <description>Custom description for proxy_fix_x_proto</description>
+        
+      </property>
+      <property>
+        <name>proxy_fix_x_host</name>
+        <value>1</value>
+        <display-name>Proxy Fix X Host</display-name>
+        <description>Custom description for proxy_fix_x_host</description>
+        
+      </property>
+      <property>
+        <name>proxy_fix_x_port</name>
+        <value>1</value>
+        <display-name>Proxy Fix X Port</display-name>
+        <description>Custom description for proxy_fix_x_port</description>
+        
+      </property>
+      <property>
+        <name>proxy_fix_x_prefix</name>
+        <value>1</value>
+        <display-name>Proxy Fix X Prefix</display-name>
+        <description>Custom description for proxy_fix_x_prefix</description>
+        
+      </property>
+      <property>
+        <name>cookie_secure</name>
+        <value>False</value>
+        <display-name>Cookie Secure</display-name>
+        <description>Custom description for cookie_secure</description>
+        
+      </property>
+      <property>
+        <name>cookie_samesite</name>
+        <value>Lax</value>
+        <display-name>Cookie Samesite</display-name>
+        <description>Custom description for cookie_samesite</description>
+        
+      </property>
+      <property>
+        <name>default_wrap</name>
+        <value>False</value>
+        <display-name>Default Wrap</display-name>
+        <description>Custom description for default_wrap</description>
+        
+      </property>
+      <property>
+        <name>x_frame_enabled</name>
+        <value>True</value>
+        <display-name>X Frame Enabled</display-name>
+        <description>Custom description for x_frame_enabled</description>
+        
+      </property>
+      <property>
+        <name>show_recent_stats_for_completed_runs</name>
+        <value>True</value>
+        <display-name>Show Recent Stats For Completed Runs</display-name>
+        <description>Custom description for show_recent_stats_for_completed_runs</description>
+        
+      </property>
+      <property>
+        <name>update_fab_perms</name>
+        <value>True</value>
+        <display-name>Update Fab Perms</display-name>
+        <description>Custom description for update_fab_perms</description>
+        
+      </property>
+      <property>
+        <name>session_lifetime_minutes</name>
+        <value>43200</value>
+        <display-name>Session Lifetime Minutes</display-name>
+        <description>Custom description for session_lifetime_minutes</description>
+        
+      </property>
+      <property>
+        <name>instance_name_has_markup</name>
+        <value>False</value>
+        <display-name>Instance Name Has Markup</display-name>
+        <description>Custom description for instance_name_has_markup</description>
+        
+      </property>
+      <property>
+        <name>auto_refresh_interval</name>
+        <value>3</value>
+        <display-name>Auto Refresh Interval</display-name>
+        <description>Custom description for auto_refresh_interval</description>
+        
+      </property>
+      <property>
+        <name>warn_deployment_exposure</name>
+        <value>True</value>
+        <display-name>Warn Deployment Exposure</display-name>
+        <description>Custom description for warn_deployment_exposure</description>
+        
+      </property>
+      <property>
+        <name>audit_view_excluded_events</name>
+        <value>gantt,landing_times,tries,duration,calendar,graph,grid,tree,tree_data</value>
+        <display-name>Audit View Excluded Events</display-name>
+        <description>Custom description for audit_view_excluded_events</description>
+        
+      </property>
+    </configuration>

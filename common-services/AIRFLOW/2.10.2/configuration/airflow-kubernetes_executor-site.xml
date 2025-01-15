@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+    <configuration supports_final="true">
+      
+      <property>
+        <name>pod_template_file</name>
+        <value></value>
+        <display-name>Pod Template File</display-name>
+        <description>Custom description for pod_template_file</description>
+        
+          <value-attributes>
+            <empty-value-valid>true</empty-value-valid>
+          </value-attributes>
+      </property>
+      <property>
+        <name>worker_container_repository</name>
+        <value></value>
+        <display-name>Worker Container Repository</display-name>
+        <description>Custom description for worker_container_repository</description>
+        
+          <value-attributes>
+            <empty-value-valid>true</empty-value-valid>
+          </value-attributes>
+      </property>
+      <property>
+        <name>worker_container_tag</name>
+        <value></value>
+        <display-name>Worker Container Tag</display-name>
+        <description>Custom description for worker_container_tag</description>
+        
+          <value-attributes>
+            <empty-value-valid>true</empty-value-valid>
+          </value-attributes>
+      </property>
+      <property>
+        <name>namespace</name>
+        <value>default</value>
+        <display-name>Namespace</display-name>
+        <description>Custom description for namespace</description>
+        
+      </property>
+      <property>
+        <name>delete_worker_pods</name>
+        <value>True</value>
+        <display-name>Delete Worker Pods</display-name>
+        <description>Custom description for delete_worker_pods</description>
+        
+      </property>
+      <property>
+        <name>delete_worker_pods_on_failure</name>
+        <value>False</value>
+        <display-name>Delete Worker Pods On Failure</display-name>
+        <description>Custom description for delete_worker_pods_on_failure</description>
+        
+      </property>
+      <property>
+        <name>worker_pods_creation_batch_size</name>
+        <value>1</value>
+        <display-name>Worker Pods Creation Batch Size</display-name>
+        <description>Custom description for worker_pods_creation_batch_size</description>
+        
+      </property>
+      <property>
+        <name>multi_namespace_mode</name>
+        <value>False</value>
+        <display-name>Multi Namespace Mode</display-name>
+        <description>Custom description for multi_namespace_mode</description>
+        
+      </property>
+      <property>
+        <name>in_cluster</name>
+        <value>True</value>
+        <display-name>In Cluster</display-name>
+        <description>Custom description for in_cluster</description>
+        
+      </property>
+      <property>
+        <name>kube_client_request_args</name>
+        <value></value>
+        <display-name>Kube Client Request Args</display-name>
+        <description>Custom description for kube_client_request_args</description>
+        
+          <value-attributes>
+            <empty-value-valid>true</empty-value-valid>
+          </value-attributes>
+      </property>
+      <property>
+        <name>delete_option_kwargs</name>
+        <value></value>
+        <display-name>Delete Option Kwargs</display-name>
+        <description>Custom description for delete_option_kwargs</description>
+        
+          <value-attributes>
+            <empty-value-valid>true</empty-value-valid>
+          </value-attributes>
+      </property>
+      <property>
+        <name>enable_tcp_keepalive</name>
+        <value>True</value>
+        <display-name>Enable Tcp Keepalive</display-name>
+        <description>Custom description for enable_tcp_keepalive</description>
+        
+      </property>
+      <property>
+        <name>tcp_keep_idle</name>
+        <value>120</value>
+        <display-name>Tcp Keep Idle</display-name>
+        <description>Custom description for tcp_keep_idle</description>
+        
+      </property>
+      <property>
+        <name>tcp_keep_intvl</name>
+        <value>30</value>
+        <display-name>Tcp Keep Intvl</display-name>
+        <description>Custom description for tcp_keep_intvl</description>
+        
+      </property>
+      <property>
+        <name>tcp_keep_cnt</name>
+        <value>6</value>
+        <display-name>Tcp Keep Cnt</display-name>
+        <description>Custom description for tcp_keep_cnt</description>
+        
+      </property>
+      <property>
+        <name>verify_ssl</name>
+        <value>True</value>
+        <display-name>Verify Ssl</display-name>
+        <description>Custom description for verify_ssl</description>
+        
+      </property>
+      <property>
+        <name>worker_pods_pending_timeout</name>
+        <value>300</value>
+        <display-name>Worker Pods Pending Timeout</display-name>
+        <description>Custom description for worker_pods_pending_timeout</description>
+        
+      </property>
+      <property>
+        <name>worker_pods_pending_timeout_check_interval</name>
+        <value>120</value>
+        <display-name>Worker Pods Pending Timeout Check Interval</display-name>
+        <description>Custom description for worker_pods_pending_timeout_check_interval</description>
+        
+      </property>
+      <property>
+        <name>worker_pods_queued_check_interval</name>
+        <value>60</value>
+        <display-name>Worker Pods Queued Check Interval</display-name>
+        <description>Custom description for worker_pods_queued_check_interval</description>
+        
+      </property>
+      <property>
+        <name>worker_pods_pending_timeout_batch_size</name>
+        <value>100</value>
+        <display-name>Worker Pods Pending Timeout Batch Size</display-name>
+        <description>Custom description for worker_pods_pending_timeout_batch_size</description>
+        
+      </property>
+    </configuration>

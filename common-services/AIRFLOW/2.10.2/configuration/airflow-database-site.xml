@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+    <configuration supports_final="true">
+      
+      <property>
+        <name>sql_alchemy_conn</name>
+        <value>postgresql+psycopg2://postgres:Mb123@10.1.42.174:5432/airflow</value>
+        <display-name>Sql Alchemy Conn</display-name>
+        <description>Custom description for sql_alchemy_conn</description>
+        
+      </property>
+      <property>
+        <name>sql_engine_encoding</name>
+        <value>utf-8</value>
+        <display-name>Sql Engine Encoding</display-name>
+        <description>Custom description for sql_engine_encoding</description>
+        
+      </property>
+      <property>
+        <name>sql_alchemy_pool_enabled</name>
+        <value>True</value>
+        <display-name>Sql Alchemy Pool Enabled</display-name>
+        <description>Custom description for sql_alchemy_pool_enabled</description>
+        
+      </property>
+      <property>
+        <name>sql_alchemy_pool_size</name>
+        <value>5</value>
+        <display-name>Sql Alchemy Pool Size</display-name>
+        <description>Custom description for sql_alchemy_pool_size</description>
+        
+      </property>
+      <property>
+        <name>sql_alchemy_max_overflow</name>
+        <value>10</value>
+        <display-name>Sql Alchemy Max Overflow</display-name>
+        <description>Custom description for sql_alchemy_max_overflow</description>
+        
+      </property>
+      <property>
+        <name>sql_alchemy_pool_recycle</name>
+        <value>1800</value>
+        <display-name>Sql Alchemy Pool Recycle</display-name>
+        <description>Custom description for sql_alchemy_pool_recycle</description>
+        
+      </property>
+      <property>
+        <name>sql_alchemy_pool_pre_ping</name>
+        <value>True</value>
+        <display-name>Sql Alchemy Pool Pre Ping</display-name>
+        <description>Custom description for sql_alchemy_pool_pre_ping</description>
+        
+      </property>
+      <property>
+        <name>sql_alchemy_schema</name>
+        <value></value>
+        <display-name>Sql Alchemy Schema</display-name>
+        <description>Custom description for sql_alchemy_schema</description>
+        
+          <value-attributes>
+            <empty-value-valid>true</empty-value-valid>
+          </value-attributes>
+      </property>
+      <property>
+        <name>load_default_connections</name>
+        <value>True</value>
+        <display-name>Load Default Connections</display-name>
+        <description>Custom description for load_default_connections</description>
+        
+      </property>
+      <property>
+        <name>max_db_retries</name>
+        <value>3</value>
+        <display-name>Max Db Retries</display-name>
+        <description>Custom description for max_db_retries</description>
+        
+      </property>
+    </configuration>

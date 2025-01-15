@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+    <configuration supports_final="true">
+      
+      <property>
+        <name>smtp_host</name>
+        <value>localhost</value>
+        <display-name>Smtp Host</display-name>
+        <description>Custom description for smtp_host</description>
+        
+      </property>
+      <property>
+        <name>smtp_starttls</name>
+        <value>True</value>
+        <display-name>Smtp Starttls</display-name>
+        <description>Custom description for smtp_starttls</description>
+        
+      </property>
+      <property>
+        <name>smtp_ssl</name>
+        <value>False</value>
+        <display-name>Smtp Ssl</display-name>
+        <description>Custom description for smtp_ssl</description>
+        
+      </property>
+      <property>
+        <name>smtp_port</name>
+        <value>25</value>
+        <display-name>Smtp Port</display-name>
+        <description>Custom description for smtp_port</description>
+        
+      </property>
+      <property>
+        <name>smtp_mail_from</name>
+        <value>airflow@example.com</value>
+        <display-name>Smtp Mail From</display-name>
+        <description>Custom description for smtp_mail_from</description>
+        
+      </property>
+      <property>
+        <name>smtp_timeout</name>
+        <value>30</value>
+        <display-name>Smtp Timeout</display-name>
+        <description>Custom description for smtp_timeout</description>
+        
+      </property>
+      <property>
+        <name>smtp_retry_limit</name>
+        <value>5</value>
+        <display-name>Smtp Retry Limit</display-name>
+        <description>Custom description for smtp_retry_limit</description>
+        
+      </property>
+    </configuration>

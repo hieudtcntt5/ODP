@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+    <configuration supports_final="true">
+      
+      <property>
+        <name>default_timeout</name>
+        <value>604800</value>
+        <display-name>Default Timeout</display-name>
+        <description>Custom description for default_timeout</description>
+        
+      </property>
+    </configuration>

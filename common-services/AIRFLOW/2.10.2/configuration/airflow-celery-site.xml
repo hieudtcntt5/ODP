@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+    <configuration supports_final="true">
+      
+      <property>
+        <name>celery_app_name</name>
+        <value>airflow.executors.celery_executor</value>
+        <display-name>Celery App Name</display-name>
+        <description>Custom description for celery_app_name</description>
+        
+      </property>
+      <property>
+        <name>worker_concurrency</name>
+        <value>16</value>
+        <display-name>Worker Concurrency</display-name>
+        <description>Custom description for worker_concurrency</description>
+        
+      </property>
+      <property>
+        <name>worker_prefetch_multiplier</name>
+        <value>1</value>
+        <display-name>Worker Prefetch Multiplier</display-name>
+        <description>Custom description for worker_prefetch_multiplier</description>
+        
+      </property>
+      <property>
+        <name>worker_enable_remote_control</name>
+        <value>true</value>
+        <display-name>Worker Enable Remote Control</display-name>
+        <description>Custom description for worker_enable_remote_control</description>
+        
+      </property>
+      <property>
+        <name>broker_url</name>
+        <value>sentinel://10.1.42.166:26379;sentinel://10.1.42.160:26379;sentinel://10.1.42.161:26379</value>
+        <display-name>Broker Url</display-name>
+        <description>Custom description for broker_url</description>
+        
+      </property>
+      <property>
+        <name>result_backend</name>
+        <value>db+postgresql://postgres:Mb123@10.1.42.174:5432/airflow2</value>
+        <display-name>Result Backend</display-name>
+        <description>Custom description for result_backend</description>
+        
+      </property>
+      <property>
+        <name>flower_host</name>
+        <value>0.0.0.0</value>
+        <display-name>Flower Host</display-name>
+        <description>Custom description for flower_host</description>
+        
+      </property>
+      <property>
+        <name>flower_url_prefix</name>
+        <value></value>
+        <display-name>Flower Url Prefix</display-name>
+        <description>Custom description for flower_url_prefix</description>
+        
+          <value-attributes>
+            <empty-value-valid>true</empty-value-valid>
+          </value-attributes>
+      </property>
+      <property>
+        <name>flower_port</name>
+        <value>8188</value>
+        <display-name>Flower Port</display-name>
+        <description>Custom description for flower_port</description>
+        
+      </property>
+      <property>
+        <name>flower_basic_auth</name>
+        <value></value>
+        <display-name>Flower Basic Auth</display-name>
+        <description>Custom description for flower_basic_auth</description>
+        
+          <value-attributes>
+            <empty-value-valid>true</empty-value-valid>
+          </value-attributes>
+      </property>
+      <property>
+        <name>sync_parallelism</name>
+        <value>0</value>
+        <display-name>Sync Parallelism</display-name>
+        <description>Custom description for sync_parallelism</description>
+        
+      </property>
+      <property>
+        <name>celery_config_options</name>
+        <value>airflow.config_templates.default_celery.DEFAULT_CELERY_CONFIG</value>
+        <display-name>Celery Config Options</display-name>
+        <description>Custom description for celery_config_options</description>
+        
+      </property>
+      <property>
+        <name>ssl_active</name>
+        <value>False</value>
+        <display-name>Ssl Active</display-name>
+        <description>Custom description for ssl_active</description>
+        
+      </property>
+      <property>
+        <name>ssl_key</name>
+        <value></value>
+        <display-name>Ssl Key</display-name>
+        <description>Custom description for ssl_key</description>
+        
+          <value-attributes>
+            <empty-value-valid>true</empty-value-valid>
+          </value-attributes>
+      </property>
+      <property>
+        <name>ssl_cert</name>
+        <value></value>
+        <display-name>Ssl Cert</display-name>
+        <description>Custom description for ssl_cert</description>
+        
+          <value-attributes>
+            <empty-value-valid>true</empty-value-valid>
+          </value-attributes>
+      </property>
+      <property>
+        <name>ssl_cacert</name>
+        <value></value>
+        <display-name>Ssl Cacert</display-name>
+        <description>Custom description for ssl_cacert</description>
+        
+          <value-attributes>
+            <empty-value-valid>true</empty-value-valid>
+          </value-attributes>
+      </property>
+      <property>
+        <name>pool</name>
+        <value>prefork</value>
+        <display-name>Pool</display-name>
+        <description>Custom description for pool</description>
+        
+      </property>
+      <property>
+        <name>operation_timeout</name>
+        <value>1.0</value>
+        <display-name>Operation Timeout</display-name>
+        <description>Custom description for operation_timeout</description>
+        
+      </property>
+      <property>
+        <name>task_track_started</name>
+        <value>True</value>
+        <display-name>Task Track Started</display-name>
+        <description>Custom description for task_track_started</description>
+        
+      </property>
+      <property>
+        <name>task_adoption_timeout</name>
+        <value>600</value>
+        <display-name>Task Adoption Timeout</display-name>
+        <description>Custom description for task_adoption_timeout</description>
+        
+      </property>
+      <property>
+        <name>stalled_task_timeout</name>
+        <value>0</value>
+        <display-name>Stalled Task Timeout</display-name>
+        <description>Custom description for stalled_task_timeout</description>
+        
+      </property>
+      <property>
+        <name>task_publish_max_retries</name>
+        <value>3</value>
+        <display-name>Task Publish Max Retries</display-name>
+        <description>Custom description for task_publish_max_retries</description>
+        
+      </property>
+      <property>
+        <name>worker_precheck</name>
+        <value>False</value>
+        <display-name>Worker Precheck</display-name>
+        <description>Custom description for worker_precheck</description>
+        
+      </property>
+    </configuration>

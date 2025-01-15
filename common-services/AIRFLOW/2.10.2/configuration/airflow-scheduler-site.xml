@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+    <configuration supports_final="true">
+      
+      <property>
+        <name>job_heartbeat_sec</name>
+        <value>5</value>
+        <display-name>Job Heartbeat Sec</display-name>
+        <description>Custom description for job_heartbeat_sec</description>
+        
+      </property>
+      <property>
+        <name>scheduler_heartbeat_sec</name>
+        <value>5</value>
+        <display-name>Scheduler Heartbeat Sec</display-name>
+        <description>Custom description for scheduler_heartbeat_sec</description>
+        
+      </property>
+      <property>
+        <name>num_runs</name>
+        <value>-1</value>
+        <display-name>Num Runs</display-name>
+        <description>Custom description for num_runs</description>
+        
+      </property>
+      <property>
+        <name>scheduler_idle_sleep_time</name>
+        <value>1</value>
+        <display-name>Scheduler Idle Sleep Time</display-name>
+        <description>Custom description for scheduler_idle_sleep_time</description>
+        
+      </property>
+      <property>
+        <name>min_file_process_interval</name>
+        <value>30</value>
+        <display-name>Min File Process Interval</display-name>
+        <description>Custom description for min_file_process_interval</description>
+        
+      </property>
+      <property>
+        <name>parsing_cleanup_interval</name>
+        <value>60</value>
+        <display-name>Parsing Cleanup Interval</display-name>
+        <description>Custom description for parsing_cleanup_interval</description>
+        
+      </property>
+      <property>
+        <name>dag_dir_list_interval</name>
+        <value>300</value>
+        <display-name>Dag Dir List Interval</display-name>
+        <description>Custom description for dag_dir_list_interval</description>
+        
+      </property>
+      <property>
+        <name>print_stats_interval</name>
+        <value>30</value>
+        <display-name>Print Stats Interval</display-name>
+        <description>Custom description for print_stats_interval</description>
+        
+      </property>
+      <property>
+        <name>pool_metrics_interval</name>
+        <value>5.0</value>
+        <display-name>Pool Metrics Interval</display-name>
+        <description>Custom description for pool_metrics_interval</description>
+        
+      </property>
+      <property>
+        <name>scheduler_health_check_threshold</name>
+        <value>30</value>
+        <display-name>Scheduler Health Check Threshold</display-name>
+        <description>Custom description for scheduler_health_check_threshold</description>
+        
+      </property>
+      <property>
+        <name>enable_health_check</name>
+        <value>False</value>
+        <display-name>Enable Health Check</display-name>
+        <description>Custom description for enable_health_check</description>
+        
+      </property>
+      <property>
+        <name>scheduler_health_check_server_port</name>
+        <value>8974</value>
+        <display-name>Scheduler Health Check Server Port</display-name>
+        <description>Custom description for scheduler_health_check_server_port</description>
+        
+      </property>
+      <property>
+        <name>orphaned_tasks_check_interval</name>
+        <value>300.0</value>
+        <display-name>Orphaned Tasks Check Interval</display-name>
+        <description>Custom description for orphaned_tasks_check_interval</description>
+        
+      </property>
+      <property>
+        <name>child_process_log_directory</name>
+        <value>/usr/odp/1.2.2.0-138/airflow/logs/scheduler</value>
+        <display-name>Child Process Log Directory</display-name>
+        <description>Custom description for child_process_log_directory</description>
+        
+      </property>
+      <property>
+        <name>scheduler_zombie_task_threshold</name>
+        <value>300</value>
+        <display-name>Scheduler Zombie Task Threshold</display-name>
+        <description>Custom description for scheduler_zombie_task_threshold</description>
+        
+      </property>
+      <property>
+        <name>zombie_detection_interval</name>
+        <value>10.0</value>
+        <display-name>Zombie Detection Interval</display-name>
+        <description>Custom description for zombie_detection_interval</description>
+        
+      </property>
+      <property>
+        <name>catchup_by_default</name>
+        <value>True</value>
+        <display-name>Catchup By Default</display-name>
+        <description>Custom description for catchup_by_default</description>
+        
+      </property>
+      <property>
+        <name>ignore_first_depends_on_past_by_default</name>
+        <value>True</value>
+        <display-name>Ignore First Depends On Past By Default</display-name>
+        <description>Custom description for ignore_first_depends_on_past_by_default</description>
+        
+      </property>
+      <property>
+        <name>max_tis_per_query</name>
+        <value>512</value>
+        <display-name>Max Tis Per Query</display-name>
+        <description>Custom description for max_tis_per_query</description>
+        
+      </property>
+      <property>
+        <name>use_row_level_locking</name>
+        <value>True</value>
+        <display-name>Use Row Level Locking</display-name>
+        <description>Custom description for use_row_level_locking</description>
+        
+      </property>
+      <property>
+        <name>max_dagruns_to_create_per_loop</name>
+        <value>10</value>
+        <display-name>Max Dagruns To Create Per Loop</display-name>
+        <description>Custom description for max_dagruns_to_create_per_loop</description>
+        
+      </property>
+      <property>
+        <name>max_dagruns_per_loop_to_schedule</name>
+        <value>20</value>
+        <display-name>Max Dagruns Per Loop To Schedule</display-name>
+        <description>Custom description for max_dagruns_per_loop_to_schedule</description>
+        
+      </property>
+      <property>
+        <name>schedule_after_task_execution</name>
+        <value>True</value>
+        <display-name>Schedule After Task Execution</display-name>
+        <description>Custom description for schedule_after_task_execution</description>
+        
+      </property>
+      <property>
+        <name>parsing_processes</name>
+        <value>2</value>
+        <display-name>Parsing Processes</display-name>
+        <description>Custom description for parsing_processes</description>
+        
+      </property>
+      <property>
+        <name>file_parsing_sort_mode</name>
+        <value>modified_time</value>
+        <display-name>File Parsing Sort Mode</display-name>
+        <description>Custom description for file_parsing_sort_mode</description>
+        
+      </property>
+      <property>
+        <name>standalone_dag_processor</name>
+        <value>False</value>
+        <display-name>Standalone Dag Processor</display-name>
+        <description>Custom description for standalone_dag_processor</description>
+        
+      </property>
+      <property>
+        <name>max_callbacks_per_loop</name>
+        <value>20</value>
+        <display-name>Max Callbacks Per Loop</display-name>
+        <description>Custom description for max_callbacks_per_loop</description>
+        
+      </property>
+      <property>
+        <name>dag_stale_not_seen_duration</name>
+        <value>600</value>
+        <display-name>Dag Stale Not Seen Duration</display-name>
+        <description>Custom description for dag_stale_not_seen_duration</description>
+        
+      </property>
+      <property>
+        <name>use_job_schedule</name>
+        <value>True</value>
+        <display-name>Use Job Schedule</display-name>
+        <description>Custom description for use_job_schedule</description>
+        
+      </property>
+      <property>
+        <name>allow_trigger_in_future</name>
+        <value>False</value>
+        <display-name>Allow Trigger In Future</display-name>
+        <description>Custom description for allow_trigger_in_future</description>
+        
+      </property>
+      <property>
+        <name>trigger_timeout_check_interval</name>
+        <value>15</value>
+        <display-name>Trigger Timeout Check Interval</display-name>
+        <description>Custom description for trigger_timeout_check_interval</description>
+        
+      </property>
+    </configuration>

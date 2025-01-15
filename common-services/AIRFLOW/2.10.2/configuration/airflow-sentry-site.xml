@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+    <configuration supports_final="true">
+      
+      <property>
+        <name>sentry_on</name>
+        <value>false</value>
+        <display-name>Sentry On</display-name>
+        <description>Custom description for sentry_on</description>
+        
+      </property>
+      <property>
+        <name>sentry_dsn</name>
+        <value></value>
+        <display-name>Sentry Dsn</display-name>
+        <description>Custom description for sentry_dsn</description>
+        
+          <value-attributes>
+            <empty-value-valid>true</empty-value-valid>
+          </value-attributes>
+      </property>
+    </configuration>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+    <configuration supports_final="true">
+      
+      <property>
+        <name>sasl_enabled</name>
+        <value>False</value>
+        <display-name>Sasl Enabled</display-name>
+        <description>Custom description for sasl_enabled</description>
+        
+      </property>
+      <property>
+        <name>host</name>
+        <value></value>
+        <display-name>Host</display-name>
+        <description>Custom description for host</description>
+        
+          <value-attributes>
+            <empty-value-valid>true</empty-value-valid>
+          </value-attributes>
+      </property>
+      <property>
+        <name>port</name>
+        <value>21000</value>
+        <display-name>Port</display-name>
+        <description>Custom description for port</description>
+        
+      </property>
+      <property>
+        <name>username</name>
+        <value></value>
+        <display-name>Username</display-name>
+        <description>Custom description for username</description>
+        
+          <value-attributes>
+            <empty-value-valid>true</empty-value-valid>
+          </value-attributes>
+      </property>
+      <property>
+        <name>password</name>
+        <value></value>
+        <display-name>Password</display-name>
+        <description>Custom description for password</description>
+        
+          <value-attributes>
+            <empty-value-valid>true</empty-value-valid>
+          </value-attributes>
+      </property>
+    </configuration>

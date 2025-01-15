@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+    <configuration supports_final="true">
+      
+      <property>
+        <name>default_owner</name>
+        <value>airflow</value>
+        <display-name>Default Owner</display-name>
+        <description>Custom description for default_owner</description>
+        
+      </property>
+      <property>
+        <name>default_cpus</name>
+        <value>1</value>
+        <display-name>Default Cpus</display-name>
+        <description>Custom description for default_cpus</description>
+        
+      </property>
+      <property>
+        <name>default_ram</name>
+        <value>512</value>
+        <display-name>Default Ram</display-name>
+        <description>Custom description for default_ram</description>
+        
+      </property>
+      <property>
+        <name>default_disk</name>
+        <value>512</value>
+        <display-name>Default Disk</display-name>
+        <description>Custom description for default_disk</description>
+        
+      </property>
+      <property>
+        <name>default_gpus</name>
+        <value>0</value>
+        <display-name>Default Gpus</display-name>
+        <description>Custom description for default_gpus</description>
+        
+      </property>
+      <property>
+        <name>default_queue</name>
+        <value>default</value>
+        <display-name>Default Queue</display-name>
+        <description>Custom description for default_queue</description>
+        
+      </property>
+      <property>
+        <name>allow_illegal_arguments</name>
+        <value>False</value>
+        <display-name>Allow Illegal Arguments</display-name>
+        <description>Custom description for allow_illegal_arguments</description>
+        
+      </property>
+    </configuration>

@@ -1,0 +1,26 @@
+{
+  "services": [
+    {
+      "name": "AIRFLOW",
+      "identities": [
+        {
+          "name": "/smokeuser"
+        }
+      ],
+      "components": [
+        {
+          "name": "AIRFLOW_WEBSERVER"
+        },
+        {
+          "name": "AIRFLOW_SCHEDULER"
+        },
+        {
+          "name": "AIRFLOW_CELERY_FLOWER"
+        },
+        {
+          "name": "AIRFLOW_WORKER"
+        }
+      ]
+    }
+  ]
+}

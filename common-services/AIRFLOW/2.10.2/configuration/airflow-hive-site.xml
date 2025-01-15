@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+    <configuration supports_final="true">
+      
+      <property>
+        <name>default_hive_mapred_queue</name>
+        <value></value>
+        <display-name>Default Hive Mapred Queue</display-name>
+        <description>Custom description for default_hive_mapred_queue</description>
+        
+          <value-attributes>
+            <empty-value-valid>true</empty-value-valid>
+          </value-attributes>
+      </property>
+    </configuration>

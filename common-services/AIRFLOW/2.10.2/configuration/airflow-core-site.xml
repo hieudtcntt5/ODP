@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+    <configuration supports_final="true">
+      
+      <property>
+        <name>dags_folder</name>
+        <value>/usr/odp/1.2.2.0-138/airflow/dags</value>
+        <display-name>Dags Folder</display-name>
+        <description>Custom description for dags_folder</description>
+        
+      </property>
+      <property>
+        <name>hostname_callable</name>
+        <value>airflow.utils.net.getfqdn</value>
+        <display-name>Hostname Callable</display-name>
+        <description>Custom description for hostname_callable</description>
+        
+      </property>
+      <property>
+        <name>default_timezone</name>
+        <value>utc</value>
+        <display-name>Default Timezone</display-name>
+        <description>Custom description for default_timezone</description>
+        
+      </property>
+      <property>
+        <name>executor</name>
+        <value>CeleryExecutor</value>
+        <display-name>Executor</display-name>
+        <description>Custom description for executor</description>
+        
+      </property>
+      <property>
+        <name>parallelism</name>
+        <value>32</value>
+        <display-name>Parallelism</display-name>
+        <description>Custom description for parallelism</description>
+        
+      </property>
+      <property>
+        <name>max_active_tasks_per_dag</name>
+        <value>16</value>
+        <display-name>Max Active Tasks Per Dag</display-name>
+        <description>Custom description for max_active_tasks_per_dag</description>
+        
+      </property>
+      <property>
+        <name>dags_are_paused_at_creation</name>
+        <value>True</value>
+        <display-name>Dags Are Paused At Creation</display-name>
+        <description>Custom description for dags_are_paused_at_creation</description>
+        
+      </property>
+      <property>
+        <name>max_active_runs_per_dag</name>
+        <value>16</value>
+        <display-name>Max Active Runs Per Dag</display-name>
+        <description>Custom description for max_active_runs_per_dag</description>
+        
+      </property>
+      <property>
+        <name>load_examples</name>
+        <value>True</value>
+        <display-name>Load Examples</display-name>
+        <description>Custom description for load_examples</description>
+        
+      </property>
+      <property>
+        <name>plugins_folder</name>
+        <value>/usr/odp/1.2.2.0-138/airflow/plugins</value>
+        <display-name>Plugins Folder</display-name>
+        <description>Custom description for plugins_folder</description>
+        
+      </property>
+      <property>
+        <name>execute_tasks_new_python_interpreter</name>
+        <value>False</value>
+        <display-name>Execute Tasks New Python Interpreter</display-name>
+        <description>Custom description for execute_tasks_new_python_interpreter</description>
+        
+      </property>
+      <property>
+        <name>fernet_key</name>
+        <value></value>
+        <display-name>Fernet Key</display-name>
+        <description>Custom description for fernet_key</description>
+        
+          <value-attributes>
+            <empty-value-valid>true</empty-value-valid>
+          </value-attributes>
+      </property>
+      <property>
+        <name>donot_pickle</name>
+        <value>True</value>
+        <display-name>Donot Pickle</display-name>
+        <description>Custom description for donot_pickle</description>
+        
+      </property>
+      <property>
+        <name>dagbag_import_timeout</name>
+        <value>30.0</value>
+        <display-name>Dagbag Import Timeout</display-name>
+        <description>Custom description for dagbag_import_timeout</description>
+        
+      </property>
+      <property>
+        <name>dagbag_import_error_tracebacks</name>
+        <value>True</value>
+        <display-name>Dagbag Import Error Tracebacks</display-name>
+        <description>Custom description for dagbag_import_error_tracebacks</description>
+        
+      </property>
+      <property>
+        <name>dagbag_import_error_traceback_depth</name>
+        <value>2</value>
+        <display-name>Dagbag Import Error Traceback Depth</display-name>
+        <description>Custom description for dagbag_import_error_traceback_depth</description>
+        
+      </property>
+      <property>
+        <name>dag_file_processor_timeout</name>
+        <value>50</value>
+        <display-name>Dag File Processor Timeout</display-name>
+        <description>Custom description for dag_file_processor_timeout</description>
+        
+      </property>
+      <property>
+        <name>task_runner</name>
+        <value>StandardTaskRunner</value>
+        <display-name>Task Runner</display-name>
+        <description>Custom description for task_runner</description>
+        
+      </property>
+      <property>
+        <name>default_impersonation</name>
+        <value></value>
+        <display-name>Default Impersonation</display-name>
+        <description>Custom description for default_impersonation</description>
+        
+          <value-attributes>
+            <empty-value-valid>true</empty-value-valid>
+          </value-attributes>
+      </property>
+      <property>
+        <name>security</name>
+        <value></value>
+        <display-name>Security</display-name>
+        <description>Custom description for security</description>
+        
+          <value-attributes>
+            <empty-value-valid>true</empty-value-valid>
+          </value-attributes>
+      </property>
+      <property>
+        <name>unit_test_mode</name>
+        <value>False</value>
+        <display-name>Unit Test Mode</display-name>
+        <description>Custom description for unit_test_mode</description>
+        
+      </property>
+      <property>
+        <name>enable_xcom_pickling</name>
+        <value>False</value>
+        <display-name>Enable Xcom Pickling</display-name>
+        <description>Custom description for enable_xcom_pickling</description>
+        
+      </property>
+      <property>
+        <name>allowed_deserialization_classes</name>
+        <value>airflow\..*</value>
+        <display-name>Allowed Deserialization Classes</display-name>
+        <description>Custom description for allowed_deserialization_classes</description>
+        
+      </property>
+      <property>
+        <name>killed_task_cleanup_time</name>
+        <value>60</value>
+        <display-name>Killed Task Cleanup Time</display-name>
+        <description>Custom description for killed_task_cleanup_time</description>
+        
+      </property>
+      <property>
+        <name>dag_run_conf_overrides_params</name>
+        <value>True</value>
+        <display-name>Dag Run Conf Overrides Params</display-name>
+        <description>Custom description for dag_run_conf_overrides_params</description>
+        
+      </property>
+      <property>
+        <name>dag_discovery_safe_mode</name>
+        <value>True</value>
+        <display-name>Dag Discovery Safe Mode</display-name>
+        <description>Custom description for dag_discovery_safe_mode</description>
+        
+      </property>
+      <property>
+        <name>dag_ignore_file_syntax</name>
+        <value>regexp</value>
+        <display-name>Dag Ignore File Syntax</display-name>
+        <description>Custom description for dag_ignore_file_syntax</description>
+        
+      </property>
+      <property>
+        <name>default_task_retries</name>
+        <value>0</value>
+        <display-name>Default Task Retries</display-name>
+        <description>Custom description for default_task_retries</description>
+        
+      </property>
+      <property>
+        <name>default_task_retry_delay</name>
+        <value>300</value>
+        <display-name>Default Task Retry Delay</display-name>
+        <description>Custom description for default_task_retry_delay</description>
+        
+      </property>
+      <property>
+        <name>default_task_weight_rule</name>
+        <value>downstream</value>
+        <display-name>Default Task Weight Rule</display-name>
+        <description>Custom description for default_task_weight_rule</description>
+        
+      </property>
+      <property>
+        <name>default_task_execution_timeout</name>
+        <value></value>
+        <display-name>Default Task Execution Timeout</display-name>
+        <description>Custom description for default_task_execution_timeout</description>
+        
+          <value-attributes>
+            <empty-value-valid>true</empty-value-valid>
+          </value-attributes>
+      </property>
+      <property>
+        <name>min_serialized_dag_update_interval</name>
+        <value>30</value>
+        <display-name>Min Serialized Dag Update Interval</display-name>
+        <description>Custom description for min_serialized_dag_update_interval</description>
+        
+      </property>
+      <property>
+        <name>compress_serialized_dags</name>
+        <value>False</value>
+        <display-name>Compress Serialized Dags</display-name>
+        <description>Custom description for compress_serialized_dags</description>
+        
+      </property>
+      <property>
+        <name>min_serialized_dag_fetch_interval</name>
+        <value>10</value>
+        <display-name>Min Serialized Dag Fetch Interval</display-name>
+        <description>Custom description for min_serialized_dag_fetch_interval</description>
+        
+      </property>
+      <property>
+        <name>max_num_rendered_ti_fields_per_task</name>
+        <value>30</value>
+        <display-name>Max Num Rendered Ti Fields Per Task</display-name>
+        <description>Custom description for max_num_rendered_ti_fields_per_task</description>
+        
+      </property>
+      <property>
+        <name>check_slas</name>
+        <value>True</value>
+        <display-name>Check Slas</display-name>
+        <description>Custom description for check_slas</description>
+        
+      </property>
+      <property>
+        <name>xcom_backend</name>
+        <value>airflow.models.xcom.BaseXCom</value>
+        <display-name>Xcom Backend</display-name>
+        <description>Custom description for xcom_backend</description>
+        
+      </property>
+      <property>
+        <name>lazy_load_plugins</name>
+        <value>True</value>
+        <display-name>Lazy Load Plugins</display-name>
+        <description>Custom description for lazy_load_plugins</description>
+        
+      </property>
+      <property>
+        <name>lazy_discover_providers</name>
+        <value>True</value>
+        <display-name>Lazy Discover Providers</display-name>
+        <description>Custom description for lazy_discover_providers</description>
+        
+      </property>
+      <property>
+        <name>hide_sensitive_var_conn_fields</name>
+        <value>True</value>
+        <display-name>Hide Sensitive Var Conn Fields</display-name>
+        <description>Custom description for hide_sensitive_var_conn_fields</description>
+        
+      </property>
+      <property>
+        <name>sensitive_var_conn_names</name>
+        <value></value>
+        <display-name>Sensitive Var Conn Names</display-name>
+        <description>Custom description for sensitive_var_conn_names</description>
+        
+          <value-attributes>
+            <empty-value-valid>true</empty-value-valid>
+          </value-attributes>
+      </property>
+      <property>
+        <name>default_pool_task_slot_count</name>
+        <value>128</value>
+        <display-name>Default Pool Task Slot Count</display-name>
+        <description>Custom description for default_pool_task_slot_count</description>
+        
+      </property>
+      <property>
+        <name>max_map_length</name>
+        <value>1024</value>
+        <display-name>Max Map Length</display-name>
+        <description>Custom description for max_map_length</description>
+        
+      </property>
+      <property>
+        <name>daemon_umask</name>
+        <value>0o077</value>
+        <display-name>Daemon Umask</display-name>
+        <description>Custom description for daemon_umask</description>
+        
+      </property>
+    </configuration>

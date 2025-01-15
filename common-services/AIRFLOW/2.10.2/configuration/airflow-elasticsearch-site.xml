@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+    <configuration supports_final="true">
+      
+      <property>
+        <name>host</name>
+        <value></value>
+        <display-name>Host</display-name>
+        <description>Custom description for host</description>
+        
+          <value-attributes>
+            <empty-value-valid>true</empty-value-valid>
+          </value-attributes>
+      </property>
+      <property>
+        <name>log_id_template</name>
+        <value>{dag_id}-{task_id}-{run_id}-{map_index}-{try_number}</value>
+        <display-name>Log Id Template</display-name>
+        <description>Custom description for log_id_template</description>
+        
+      </property>
+      <property>
+        <name>end_of_log_mark</name>
+        <value>end_of_log</value>
+        <display-name>End Of Log Mark</display-name>
+        <description>Custom description for end_of_log_mark</description>
+        
+      </property>
+      <property>
+        <name>frontend</name>
+        <value></value>
+        <display-name>Frontend</display-name>
+        <description>Custom description for frontend</description>
+        
+          <value-attributes>
+            <empty-value-valid>true</empty-value-valid>
+          </value-attributes>
+      </property>
+      <property>
+        <name>write_stdout</name>
+        <value>False</value>
+        <display-name>Write Stdout</display-name>
+        <description>Custom description for write_stdout</description>
+        
+      </property>
+      <property>
+        <name>json_format</name>
+        <value>False</value>
+        <display-name>Json Format</display-name>
+        <description>Custom description for json_format</description>
+        
+      </property>
+      <property>
+        <name>json_fields</name>
+        <value>asctime, filename, lineno, levelname, message</value>
+        <display-name>Json Fields</display-name>
+        <description>Custom description for json_fields</description>
+        
+      </property>
+      <property>
+        <name>host_field</name>
+        <value>host</value>
+        <display-name>Host Field</display-name>
+        <description>Custom description for host_field</description>
+        
+      </property>
+      <property>
+        <name>offset_field</name>
+        <value>offset</value>
+        <display-name>Offset Field</display-name>
+        <description>Custom description for offset_field</description>
+        
+      </property>
+    </configuration>

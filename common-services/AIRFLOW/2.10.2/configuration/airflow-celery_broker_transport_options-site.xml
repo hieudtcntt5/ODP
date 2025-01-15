@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+    <configuration supports_final="true">
+        <property>
+        <name>master_name</name>
+        <value>redis-master</value>
+        <display-name>Master Name</display-name>
+        <description>Custom description for master_name</description>
+        
+      </property>
+    </configuration>

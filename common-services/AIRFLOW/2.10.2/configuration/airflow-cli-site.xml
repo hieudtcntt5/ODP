@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+    <configuration supports_final="true">
+      
+      <property>
+        <name>api_client</name>
+        <value>airflow.api.client.local_client</value>
+        <display-name>Api Client</display-name>
+        <description>Custom description for api_client</description>
+        
+      </property>
+      <property>
+        <name>endpoint_url</name>
+        <value>http://localhost:8080</value>
+        <display-name>Endpoint Url</display-name>
+        <description>Custom description for endpoint_url</description>
+        
+      </property>
+    </configuration>

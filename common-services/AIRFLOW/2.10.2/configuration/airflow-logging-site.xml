@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+    <configuration supports_final="true">
+      
+      <property>
+        <name>base_log_folder</name>
+        <value>/usr/odp/1.2.2.0-138/airflow/logs</value>
+        <display-name>Base Log Folder</display-name>
+        <description>Custom description for base_log_folder</description>
+        
+      </property>
+      <property>
+        <name>remote_logging</name>
+        <value>False</value>
+        <display-name>Remote Logging</display-name>
+        <description>Custom description for remote_logging</description>
+        
+      </property>
+      <property>
+        <name>remote_log_conn_id</name>
+        <value></value>
+        <display-name>Remote Log Conn Id</display-name>
+        <description>Custom description for remote_log_conn_id</description>
+        
+          <value-attributes>
+            <empty-value-valid>true</empty-value-valid>
+          </value-attributes>
+      </property>
+      <property>
+        <name>google_key_path</name>
+        <value></value>
+        <display-name>Google Key Path</display-name>
+        <description>Custom description for google_key_path</description>
+        
+          <value-attributes>
+            <empty-value-valid>true</empty-value-valid>
+          </value-attributes>
+      </property>
+      <property>
+        <name>remote_base_log_folder</name>
+        <value></value>
+        <display-name>Remote Base Log Folder</display-name>
+        <description>Custom description for remote_base_log_folder</description>
+        
+          <value-attributes>
+            <empty-value-valid>true</empty-value-valid>
+          </value-attributes>
+      </property>
+      <property>
+        <name>encrypt_s3_logs</name>
+        <value>False</value>
+        <display-name>Encrypt S3 Logs</display-name>
+        <description>Custom description for encrypt_s3_logs</description>
+        
+      </property>
+      <property>
+        <name>logging_level</name>
+        <value>INFO</value>
+        <display-name>Logging Level</display-name>
+        <description>Custom description for logging_level</description>
+        
+      </property>
+      <property>
+        <name>celery_logging_level</name>
+        <value></value>
+        <display-name>Celery Logging Level</display-name>
+        <description>Custom description for celery_logging_level</description>
+        
+          <value-attributes>
+            <empty-value-valid>true</empty-value-valid>
+          </value-attributes>
+      </property>
+      <property>
+        <name>fab_logging_level</name>
+        <value>WARNING</value>
+        <display-name>Fab Logging Level</display-name>
+        <description>Custom description for fab_logging_level</description>
+        
+      </property>
+      <property>
+        <name>logging_config_class</name>
+        <value></value>
+        <display-name>Logging Config Class</display-name>
+        <description>Custom description for logging_config_class</description>
+        
+          <value-attributes>
+            <empty-value-valid>true</empty-value-valid>
+          </value-attributes>
+      </property>
+      <property>
+        <name>colored_console_log</name>
+        <value>True</value>
+        <display-name>Colored Console Log</display-name>
+        <description>Custom description for colored_console_log</description>
+        
+      </property>
+      <property>
+        <name>colored_log_format</name>
+        <value>[%%(blue)s%%(asctime)s%%(reset)s] {%%(blue)s%%(filename)s:%%(reset)s%%(lineno)d} %%(log_color)s%%(levelname)s%%(reset)s - %%(log_color)s%%(message)s%%(reset)s</value>
+        <display-name>Colored Log Format</display-name>
+        <description>Custom description for colored_log_format</description>
+        
+      </property>
+      <property>
+        <name>colored_formatter_class</name>
+        <value>airflow.utils.log.colored_log.CustomTTYColoredFormatter</value>
+        <display-name>Colored Formatter Class</display-name>
+        <description>Custom description for colored_formatter_class</description>
+        
+      </property>
+      <property>
+        <name>log_format</name>
+        <value>[%%(asctime)s] {%%(filename)s:%%(lineno)d} %%(levelname)s - %%(message)s</value>
+        <display-name>Log Format</display-name>
+        <description>Custom description for log_format</description>
+        
+      </property>
+      <property>
+        <name>simple_log_format</name>
+        <value>%%(asctime)s %%(levelname)s - %%(message)s</value>
+        <display-name>Simple Log Format</display-name>
+        <description>Custom description for simple_log_format</description>
+        
+      </property>
+      <property>
+        <name>dag_processor_log_target</name>
+        <value>file</value>
+        <display-name>Dag Processor Log Target</display-name>
+        <description>Custom description for dag_processor_log_target</description>
+        
+      </property>
+      <property>
+        <name>dag_processor_log_format</name>
+        <value>[%%(asctime)s] [SOURCE:DAG_PROCESSOR] {%%(filename)s:%%(lineno)d} %%(levelname)s - %%(message)s</value>
+        <display-name>Dag Processor Log Format</display-name>
+        <description>Custom description for dag_processor_log_format</description>
+        
+      </property>
+      <property>
+        <name>log_formatter_class</name>
+        <value>airflow.utils.log.timezone_aware.TimezoneAware</value>
+        <display-name>Log Formatter Class</display-name>
+        <description>Custom description for log_formatter_class</description>
+        
+      </property>
+      <property>
+        <name>task_log_prefix_template</name>
+        <value></value>
+        <display-name>Task Log Prefix Template</display-name>
+        <description>Custom description for task_log_prefix_template</description>
+        
+          <value-attributes>
+            <empty-value-valid>true</empty-value-valid>
+          </value-attributes>
+      </property>
+      <property>
+        <name>log_filename_template</name>
+        <value>dag_id={{ ti.dag_id }}/run_id={{ ti.run_id }}/task_id={{ ti.task_id }}/{%% if ti.map_index >= 0 %%}map_index={{ ti.map_index }}/{%% endif %%}attempt={{ try_number }}.log</value>
+        <display-name>Log Filename Template</display-name>
+        <description>Custom description for log_filename_template</description>
+        
+      </property>
+      <property>
+        <name>log_processor_filename_template</name>
+        <value>{{ filename }}.log</value>
+        <display-name>Log Processor Filename Template</display-name>
+        <description>Custom description for log_processor_filename_template</description>
+        
+      </property>
+      <property>
+        <name>dag_processor_manager_log_location</name>
+        <value>/usr/odp/1.2.2.0-138/airflow/logs/dag_processor_manager/dag_processor_manager.log</value>
+        <display-name>Dag Processor Manager Log Location</display-name>
+        <description>Custom description for dag_processor_manager_log_location</description>
+        
+      </property>
+      <property>
+        <name>task_log_reader</name>
+        <value>task</value>
+        <display-name>Task Log Reader</display-name>
+        <description>Custom description for task_log_reader</description>
+        
+      </property>
+      <property>
+        <name>extra_logger_names</name>
+        <value></value>
+        <display-name>Extra Logger Names</display-name>
+        <description>Custom description for extra_logger_names</description>
+        
+          <value-attributes>
+            <empty-value-valid>true</empty-value-valid>
+          </value-attributes>
+      </property>
+      <property>
+        <name>worker_log_server_port</name>
+        <value>8793</value>
+        <display-name>Worker Log Server Port</display-name>
+        <description>Custom description for worker_log_server_port</description>
+        
+      </property>
+    </configuration>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+    <configuration supports_final="true">
+      
+      <property>
+        <name>statsd_on</name>
+        <value>False</value>
+        <display-name>Statsd On</display-name>
+        <description>Custom description for statsd_on</description>
+        
+      </property>
+      <property>
+        <name>statsd_host</name>
+        <value>localhost</value>
+        <display-name>Statsd Host</display-name>
+        <description>Custom description for statsd_host</description>
+        
+      </property>
+      <property>
+        <name>statsd_port</name>
+        <value>8125</value>
+        <display-name>Statsd Port</display-name>
+        <description>Custom description for statsd_port</description>
+        
+      </property>
+      <property>
+        <name>statsd_prefix</name>
+        <value>airflow</value>
+        <display-name>Statsd Prefix</display-name>
+        <description>Custom description for statsd_prefix</description>
+        
+      </property>
+      <property>
+        <name>statsd_allow_list</name>
+        <value></value>
+        <display-name>Statsd Allow List</display-name>
+        <description>Custom description for statsd_allow_list</description>
+        
+          <value-attributes>
+            <empty-value-valid>true</empty-value-valid>
+          </value-attributes>
+      </property>
+      <property>
+        <name>stat_name_handler</name>
+        <value></value>
+        <display-name>Stat Name Handler</display-name>
+        <description>Custom description for stat_name_handler</description>
+        
+          <value-attributes>
+            <empty-value-valid>true</empty-value-valid>
+          </value-attributes>
+      </property>
+      <property>
+        <name>statsd_datadog_enabled</name>
+        <value>False</value>
+        <display-name>Statsd Datadog Enabled</display-name>
+        <description>Custom description for statsd_datadog_enabled</description>
+        
+      </property>
+      <property>
+        <name>statsd_datadog_tags</name>
+        <value></value>
+        <display-name>Statsd Datadog Tags</display-name>
+        <description>Custom description for statsd_datadog_tags</description>
+        
+          <value-attributes>
+            <empty-value-valid>true</empty-value-valid>
+          </value-attributes>
+      </property>
+    </configuration>

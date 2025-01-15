@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+    <configuration supports_final="true">
+      
+      <property>
+        <name>cluster_address</name>
+        <value>127.0.0.1:8786</value>
+        <display-name>Cluster Address</display-name>
+        <description>Custom description for cluster_address</description>
+        
+      </property>
+      <property>
+        <name>tls_ca</name>
+        <value></value>
+        <display-name>Tls Ca</display-name>
+        <description>Custom description for tls_ca</description>
+        
+          <value-attributes>
+            <empty-value-valid>true</empty-value-valid>
+          </value-attributes>
+      </property>
+      <property>
+        <name>tls_cert</name>
+        <value></value>
+        <display-name>Tls Cert</display-name>
+        <description>Custom description for tls_cert</description>
+        
+          <value-attributes>
+            <empty-value-valid>true</empty-value-valid>
+          </value-attributes>
+      </property>
+      <property>
+        <name>tls_key</name>
+        <value></value>
+        <display-name>Tls Key</display-name>
+        <description>Custom description for tls_key</description>
+        
+          <value-attributes>
+            <empty-value-valid>true</empty-value-valid>
+          </value-attributes>
+      </property>
+    </configuration>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+    <configuration supports_final="true">
+      
+      <property>
+        <name>enable_experimental_api</name>
+        <value>False</value>
+        <display-name>Enable Experimental Api</display-name>
+        <description>Custom description for enable_experimental_api</description>
+        
+      </property>
+      <property>
+        <name>auth_backends</name>
+        <value>airflow.api.auth.backend.session</value>
+        <display-name>Auth Backends</display-name>
+        <description>Custom description for auth_backends</description>
+        
+      </property>
+      <property>
+        <name>maximum_page_limit</name>
+        <value>100</value>
+        <display-name>Maximum Page Limit</display-name>
+        <description>Custom description for maximum_page_limit</description>
+        
+      </property>
+      <property>
+        <name>fallback_page_limit</name>
+        <value>100</value>
+        <display-name>Fallback Page Limit</display-name>
+        <description>Custom description for fallback_page_limit</description>
+        
+      </property>
+      <property>
+        <name>google_oauth2_audience</name>
+        <value></value>
+        <display-name>Google Oauth2 Audience</display-name>
+        <description>Custom description for google_oauth2_audience</description>
+        
+          <value-attributes>
+            <empty-value-valid>true</empty-value-valid>
+          </value-attributes>
+      </property>
+      <property>
+        <name>google_key_path</name>
+        <value></value>
+        <display-name>Google Key Path</display-name>
+        <description>Custom description for google_key_path</description>
+        
+          <value-attributes>
+            <empty-value-valid>true</empty-value-valid>
+          </value-attributes>
+      </property>
+      <property>
+        <name>access_control_allow_headers</name>
+        <value></value>
+        <display-name>Access Control Allow Headers</display-name>
+        <description>Custom description for access_control_allow_headers</description>
+        
+          <value-attributes>
+            <empty-value-valid>true</empty-value-valid>
+          </value-attributes>
+      </property>
+      <property>
+        <name>access_control_allow_methods</name>
+        <value></value>
+        <display-name>Access Control Allow Methods</display-name>
+        <description>Custom description for access_control_allow_methods</description>
+        
+          <value-attributes>
+            <empty-value-valid>true</empty-value-valid>
+          </value-attributes>
+      </property>
+      <property>
+        <name>access_control_allow_origins</name>
+        <value></value>
+        <display-name>Access Control Allow Origins</display-name>
+        <description>Custom description for access_control_allow_origins</description>
+        
+          <value-attributes>
+            <empty-value-valid>true</empty-value-valid>
+          </value-attributes>
+      </property>
+    </configuration>

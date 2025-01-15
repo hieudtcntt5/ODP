@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+    <configuration supports_final="true">
+      
+      <property>
+        <name>fail_fast</name>
+        <value>False</value>
+        <display-name>Fail Fast</display-name>
+        <description>Custom description for fail_fast</description>
+        
+      </property>
+    </configuration>

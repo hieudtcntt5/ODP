@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+    <configuration supports_final="true">
+      
+      <property>
+        <name>email_backend</name>
+        <value>airflow.utils.email.send_email_smtp</value>
+        <display-name>Email Backend</display-name>
+        <description>Custom description for email_backend</description>
+        
+      </property>
+      <property>
+        <name>email_conn_id</name>
+        <value>smtp_default</value>
+        <display-name>Email Conn Id</display-name>
+        <description>Custom description for email_conn_id</description>
+        
+      </property>
+      <property>
+        <name>default_email_on_retry</name>
+        <value>True</value>
+        <display-name>Default Email On Retry</display-name>
+        <description>Custom description for default_email_on_retry</description>
+        
+      </property>
+      <property>
+        <name>default_email_on_failure</name>
+        <value>True</value>
+        <display-name>Default Email On Failure</display-name>
+        <description>Custom description for default_email_on_failure</description>
+        
+      </property>
+    </configuration>
